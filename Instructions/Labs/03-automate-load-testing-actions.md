@@ -27,7 +27,7 @@ Neste laboratório, você vai:
 
 ## Instruções
 
-## Exercício 1: Importar o aplicativo de amostra para o repositório GitHub
+## Exercício 1: Importar o aplicativo de amostra no repositório GitHub
 
 Neste exercício, você importará o repositório do [aplicativo de amostra de teste de carga do Azure](https://github.com/MicrosoftLearning/azure-load-test-sample-app) para sua própria conta do GitHub.
 
@@ -182,15 +182,15 @@ Nesta tarefa, você adicionará segredos ao repositório para permitir que os fl
 
     | Nome | Segredo |
     |--|--|
-    | AZURE_CLIENT_ID | Insira a **ID do aplicativo (cliente)** que você salvou anteriormente no laboratório. |
-    | AZURE_TENANT_ID | Insira a **ID do diretório (locatário)** que você salvou anteriormente no laboratório. |
-    | AZURE_SUBSCRIPTION_ID | Insira o valor da ID da assinatura que você salvou anteriormente no laboratório. |
+    | `AZURE_CLIENT_ID` | Insira a **ID do aplicativo (cliente)** que você salvou anteriormente no laboratório. |
+    | `AZURE_TENANT_ID` | Insira a **ID do diretório (locatário)** que você salvou anteriormente no laboratório. |
+    | `AZURE_SUBSCRIPTION_ID` | Insira o valor da ID da assinatura que você salvou anteriormente no laboratório. |
 
 ### Tarefa 2: Implantar o aplicativo Web
 
 1. Selecione o arquivo *deploy.yml* na pasta *.github/workflows*.
 
-1. Edite o arquivo e, na seção **env:**, altere o valor da variável `AZURE_WEB_APP`. Substitua `<your web app name>**` pelo nome do aplicativo Web criado anteriormente neste laboratório. Confirme a alteração.
+1. Edite o arquivo e, na seção **env:**, altere o valor da variável `AZURE_WEB_APP`. Substitua `<your web app name>` pelo nome do aplicativo Web criado anteriormente neste laboratório. Confirme a alteração.
 
 1. Reserve algum tempo para revisar o conteúdo do fluxo de trabalho.
 
