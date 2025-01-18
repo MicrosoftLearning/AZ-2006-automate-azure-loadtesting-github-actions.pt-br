@@ -6,7 +6,7 @@ lab:
 
 # Visão geral
 
-Neste laboratório, você aprenderá a implementar um fluxo de trabalho do GitHub Action que implanta um aplicativo Web ao Serviço de Aplicativo do Azure.
+Neste laboratório, você aprenderá a implementar um fluxo de trabalho de Ação do GitHub que implanta um aplicativo Web ao Serviço de Aplicativo do Azure.
 
 Após concluir este laboratório, você poderá:
 
